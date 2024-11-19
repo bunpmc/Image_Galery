@@ -1,0 +1,153 @@
+* {
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Playwrite DE Grund', sans-serif;
+}
+
+/*Top page*/
+.topPage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.button {
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+.button button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.button button:hover {
+    cursor: pointer;
+    background-color: #3572EF;
+    color: #A7E6FF;
+    border: 1px solid #050C9C;
+}
+
+.logo {
+    font-size: 43px;
+    font-weight: bold;
+    color: #050C9C;
+}
+
+/*Main content*/
+.body_content {
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.info h2{
+    font-size: 25px;
+    padding: 10px;
+    font-weight: bold;
+    color: #FF8000 ;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 1000px;
+    height: auto;
+}
+
+.description p {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.info img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+.inf {
+    padding: 10px;
+}
+
+.about_me {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.about_me button {
+    width: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.about_me button:hover {
+    cursor: pointer;
+    background-color: #050C9C;
+    color: #A7E6FF;
+    border: 1px solid #3572EF;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    padding: 10px;
+}
+
+.bottom img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .body_content {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 1200px;	
+    } 
+}
+
+@media screen and (max-width: 1024px) {
+    .body_content {
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .description {
+        width: 1000px;	
+    } 
+}
